@@ -64,6 +64,7 @@ function buildGallery(imageTags) {
       html += imageNamesToTags(imageTags).join('');
       html += ' <form action="" method="POST" enctype="multipart/form-data">';
       html += '   <input type="file" name="image">';
+      html += '  <input type="text" name="foo">';
       html += '   <input type="submit" value="Upload Image">';
       html += ' </form>';
       html += '</body>';
